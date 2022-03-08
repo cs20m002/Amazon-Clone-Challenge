@@ -1,14 +1,7 @@
-import './App.css';
-import Mainpage from './components/HomePage/Mainpage';
-import Navbar from './components/Navbar/Navbar';
+import { Route } from 'react-router-dom'
 
 function App() {
-  return (
-    <div>
-      <Navbar/>
-      <Mainpage/>
-    </div>
-  );
+    return <div>Hello there</div>
 }
 
-export default App;
+export default App
